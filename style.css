@@ -41,5 +41,5 @@ li:nth-child(even) > p {
 li:nth-child(odd) > p {
   padding: 16px;
   background-color: lightslategray;
-  /* margin: 0; */
+  margin: 0;
 }
