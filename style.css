@@ -20,6 +20,7 @@
 div > p {
   padding: 16px;
   background-color: black;
+  margin: 0;
 }
 
 ul {
@@ -34,14 +35,11 @@ li {
 li:nth-child(even) > p {
   padding: 16px;
   background-color: lightskyblue;
+  margin: 0;
 }
 
 li:nth-child(odd) > p {
-  padding: 12px;
-  margin: 0;
+  padding: 16px;
   background-color: lightslategray;
-}
-
-p {
-  margin: 0;
+  /* margin: 0; */
 }
