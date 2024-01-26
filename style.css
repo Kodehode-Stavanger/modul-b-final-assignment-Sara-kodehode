@@ -1,0 +1,45 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+}
+
+#title {
+  padding: 10px;
+  font-weight: bold;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  text-align: center;
+}
+
+#header {
+  display: contents;
+  font-weight: bold;
+  color: white;
+}
+
+div > p {
+  padding: 16px;
+  background-color: black;
+  margin: 0;
+}
+
+ul {
+  display: contents;
+  list-style: none;
+}
+
+li {
+  display: contents;
+}
+
+li:nth-child(even) > p {
+  padding: 16px;
+  background-color: lightskyblue;
+  margin: 0;
+}
+
+li:nth-child(odd) > p {
+  padding: 16px;
+  background-color: lightslategray;
+  margin: 0;
+}
